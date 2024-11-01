@@ -2,7 +2,7 @@
 DUT ?= uarttx
 
 # Path to ext deps
-EXT := ../ext
+EXT := /opt/ext
 
 ifeq (${DUT}, wishbone)
   TOPLEVEL := wishboneslavee
