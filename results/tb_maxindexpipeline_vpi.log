@@ -1,0 +1,2138 @@
+vpi_register_cb ({reason=cbStartOfSimulation, obj=0000000000000000}) = 000056220F82A3B0
+vpi_register_cb ({reason=cbEndOfSimulation, obj=0000000000000000}) = 000056220F821410
+vpi call callback 000056220F82A3B0 cbStartOfSimulation
+ vpi_get_vlog_info
+ vpi_get_vlog_info
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 0ms
+ vpi_get (vpiTimePrecision, 0000000000000000) = -15
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 0ms
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 0ms
+ vpi_iterate (vpiModule, 0000000000000000) = 000056220FE8BE80
+ vpi_scan (000056220FE8BE80) = 000056220FE39D40
+ vpi_get (vpiType, 000056220FE39D40) = vpiModule
+ vpi_get_str (vpiFullName, 000056220FE39D40) = "maxindexpipeline"
+ vpi_free_object (000056220FE8BE80)
+ vpi_get_str (vpiFullName, 000056220FE39D40) = "maxindexpipeline"
+ vpi_get (vpiType, 000056220FE39D40) = vpiModule
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 0ms
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 0ms
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 0ms
+ vpi_handle_by_name ("maxindexpipeline.clk", 0000000000000000) = 00005622100A86E0
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_get (vpiSize, 00005622100A86E0) = 1
+ vpi_get (vpiVector, 00005622100A86E0) = 0
+ vpi_get_str (vpiType, 00005622100A86E0) = "???"
+ vpi_handle_by_name ("maxindexpipeline.reset_n", 0000000000000000) = 000056220FF838B0
+ vpi_get (vpiType, 000056220FF838B0) = vpiNet
+ vpi_get (vpiType, 000056220FF838B0) = vpiNet
+ vpi_get (vpiType, 000056220FF838B0) = vpiNet
+ vpi_get (vpiSize, 000056220FF838B0) = 1
+ vpi_get (vpiVector, 000056220FF838B0) = 0
+ vpi_get_str (vpiType, 000056220FF838B0) = "???"
+ vpi_handle_by_name ("maxindexpipeline.en", 0000000000000000) = 000056220FEB7230
+ vpi_get (vpiType, 000056220FEB7230) = vpiNet
+ vpi_get (vpiType, 000056220FEB7230) = vpiNet
+ vpi_get (vpiType, 000056220FEB7230) = vpiNet
+ vpi_get (vpiSize, 000056220FEB7230) = 1
+ vpi_get (vpiVector, 000056220FEB7230) = 0
+ vpi_get_str (vpiType, 000056220FEB7230) = "???"
+ vpi_handle_by_name ("maxindexpipeline.input_array_t", 0000000000000000) = 000056220FE51700
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_get (vpiSize, 000056220FE51700) = 160
+ vpi_get (vpiVector, 000056220FE51700) = 1
+ vpi_iterate (vpiRange, 000056220FE51700) = 0000000000000000
+ vpi_handle (vpiLeftRange, 000056220FE51700) = 000056220FFA4B40
+ vpi_get_value (000056220FFA4B40, {format=Int}) = 159
+ vpi_handle (vpiRightRange, 000056220FE51700) = 000056220FEB7770
+ vpi_get_value (000056220FEB7770, {format=Int}) = 0
+ vpi_get_str (vpiType, 000056220FE51700) = "???"
+ vpi_handle_by_name ("maxindexpipeline.out_valid", 0000000000000000) = 000056220FF5D8D0
+ vpi_get (vpiType, 000056220FF5D8D0) = vpiNet
+ vpi_get (vpiType, 000056220FF5D8D0) = vpiNet
+ vpi_get (vpiType, 000056220FF5D8D0) = vpiNet
+ vpi_get (vpiSize, 000056220FF5D8D0) = 1
+ vpi_get (vpiVector, 000056220FF5D8D0) = 0
+ vpi_get_str (vpiType, 000056220FF5D8D0) = "???"
+ vpi_handle_by_name ("maxindexpipeline.max_value", 0000000000000000) = 000056221005A3E0
+ vpi_get (vpiType, 000056221005A3E0) = vpiNet
+ vpi_get (vpiType, 000056221005A3E0) = vpiNet
+ vpi_get (vpiType, 000056221005A3E0) = vpiNet
+ vpi_get (vpiSize, 000056221005A3E0) = 16
+ vpi_get (vpiVector, 000056221005A3E0) = 1
+ vpi_iterate (vpiRange, 000056221005A3E0) = 0000000000000000
+ vpi_handle (vpiLeftRange, 000056221005A3E0) = 00005622100F2540
+ vpi_get_value (00005622100F2540, {format=Int}) = 15
+ vpi_handle (vpiRightRange, 000056221005A3E0) = 000056220FE16990
+ vpi_get_value (000056220FE16990, {format=Int}) = 0
+ vpi_get_str (vpiType, 000056221005A3E0) = "???"
+ vpi_handle_by_name ("maxindexpipeline.max_index", 0000000000000000) = 000056220FEADB20
+ vpi_get (vpiType, 000056220FEADB20) = vpiNet
+ vpi_get (vpiType, 000056220FEADB20) = vpiNet
+ vpi_get (vpiType, 000056220FEADB20) = vpiNet
+ vpi_get (vpiSize, 000056220FEADB20) = 16
+ vpi_get (vpiVector, 000056220FEADB20) = 1
+ vpi_iterate (vpiRange, 000056220FEADB20) = 0000000000000000
+ vpi_handle (vpiLeftRange, 000056220FEADB20) = 000056220FF1A950
+ vpi_get_value (000056220FF1A950, {format=Int}) = 15
+ vpi_handle (vpiRightRange, 000056220FEADB20) = 000056220FE834A0
+ vpi_get_value (000056220FE834A0, {format=Int}) = 0
+ vpi_get_str (vpiType, 000056220FEADB20) = "???"
+ vpi_handle_by_name ("maxindexpipeline.output_array_t", 0000000000000000) = 000056220FE73B40
+ vpi_get (vpiType, 000056220FE73B40) = vpiNet
+ vpi_get (vpiType, 000056220FE73B40) = vpiNet
+ vpi_get (vpiType, 000056220FE73B40) = vpiNet
+ vpi_get (vpiSize, 000056220FE73B40) = 160
+ vpi_get (vpiVector, 000056220FE73B40) = 1
+ vpi_iterate (vpiRange, 000056220FE73B40) = 0000000000000000
+ vpi_handle (vpiLeftRange, 000056220FE73B40) = 0000562210072440
+ vpi_get_value (0000562210072440, {format=Int}) = 159
+ vpi_handle (vpiRightRange, 000056220FE73B40) = 00005622100BCF60
+ vpi_get_value (00005622100BCF60, {format=Int}) = 0
+ vpi_get_str (vpiType, 000056220FE73B40) = "???"
+ vpi_handle_by_name ("maxindexpipeline.input_valid", 0000000000000000) = 000056220FFA7580
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_get (vpiSize, 000056220FFA7580) = 1
+ vpi_get (vpiVector, 000056220FFA7580) = 0
+ vpi_get_str (vpiType, 000056220FFA7580) = "???"
+ vpi_handle_by_name ("maxindexpipeline.theshold_out", 0000000000000000) = 00005622100DCDB0
+ vpi_get (vpiType, 00005622100DCDB0) = vpiNet
+ vpi_get (vpiType, 00005622100DCDB0) = vpiNet
+ vpi_get (vpiType, 00005622100DCDB0) = vpiNet
+ vpi_get (vpiSize, 00005622100DCDB0) = 16
+ vpi_get (vpiVector, 00005622100DCDB0) = 1
+ vpi_iterate (vpiRange, 00005622100DCDB0) = 0000000000000000
+ vpi_handle (vpiLeftRange, 00005622100DCDB0) = 000056220FE3BF60
+ vpi_get_value (000056220FE3BF60, {format=Int}) = 15
+ vpi_handle (vpiRightRange, 00005622100DCDB0) = 000056220FE9C6C0
+ vpi_get_value (000056220FE9C6C0, {format=Int}) = 0
+ vpi_get_str (vpiType, 00005622100DCDB0) = "???"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 0ms
+ vpi_handle_by_name ("maxindexpipeline.theshold_in", 0000000000000000) = 0000562210574DA0
+ vpi_get (vpiType, 0000562210574DA0) = vpiNet
+ vpi_get (vpiType, 0000562210574DA0) = vpiNet
+ vpi_get (vpiType, 0000562210574DA0) = vpiNet
+ vpi_get (vpiSize, 0000562210574DA0) = 16
+ vpi_get (vpiVector, 0000562210574DA0) = 1
+ vpi_iterate (vpiRange, 0000562210574DA0) = 0000000000000000
+ vpi_handle (vpiLeftRange, 0000562210574DA0) = 000056221041A730
+ vpi_get_value (000056221041A730, {format=Int}) = 15
+ vpi_handle (vpiRightRange, 0000562210574DA0) = 00005622100C6970
+ vpi_get_value (00005622100C6970, {format=Int}) = 0
+ vpi_get_str (vpiType, 0000562210574DA0) = "???"
+ vpi_get (vpiType, 0000562210574DA0) = vpiNet
+ vpi_put_value (0000562210574DA0, 22)
+ vpi_get (vpiType, 000056220FEB7230) = vpiNet
+ vpi_put_value (000056220FEB7230, 0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=100ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056220F82A3B0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 000056220FF838B0) = vpiNet
+ vpi_put_value (000056220FF838B0, 0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221022D920
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056220FBF5520
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbReadWriteSynch
+ vpi_free_object (000056220FBF5520)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056220FBF5520
+vpi call callback 000056221022D920 cbAfterDelay
+ vpi_free_object (000056221022D920)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056220FBF5520
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbAfterDelay
+ vpi_free_object (000056220FBF5520)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056220FBF5520
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221022D920
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056220FBF5520
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbReadWriteSynch
+ vpi_free_object (000056220FBF5520)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056220FBF5520
+vpi call callback 000056221022D920 cbAfterDelay
+ vpi_free_object (000056221022D920)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056220FBF5520
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbAfterDelay
+ vpi_free_object (000056220FBF5520)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056220FBF5520
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221022D920
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056220FBF5520
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbReadWriteSynch
+ vpi_free_object (000056220FBF5520)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056220FBF5520
+vpi call callback 000056221022D920 cbAfterDelay
+ vpi_free_object (000056221022D920)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056220FBF5520
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbAfterDelay
+ vpi_free_object (000056220FBF5520)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056220FBF5520
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221022D920
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056220FBF5520
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbReadWriteSynch
+ vpi_free_object (000056220FBF5520)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056220FBF5520
+vpi call callback 000056221022D920 cbAfterDelay
+ vpi_free_object (000056221022D920)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056220FBF5520
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbAfterDelay
+ vpi_free_object (000056220FBF5520)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056220FBF5520
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221022D920
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056220FBF5520
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbReadWriteSynch
+ vpi_free_object (000056220FBF5520)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056220FBF5520
+vpi call callback 000056221022D920 cbAfterDelay
+ vpi_free_object (000056221022D920)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056220FBF5520
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbAfterDelay
+ vpi_free_object (000056220FBF5520)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056220FBF5520
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221022D920
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056220FBF5520
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbReadWriteSynch
+ vpi_free_object (000056220FBF5520)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056220FBF5520
+vpi call callback 000056221022D920 cbAfterDelay
+ vpi_free_object (000056221022D920)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056220FBF5520
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbAfterDelay
+ vpi_free_object (000056220FBF5520)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056220FBF5520
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221022D920
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056220FBF5520
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbReadWriteSynch
+ vpi_free_object (000056220FBF5520)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056220FBF5520
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 100ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056220FBF5520
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbAfterDelay
+ vpi_free_object (000056221022D920)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FF838B0) = vpiNet
+ vpi_put_value (000056220FF838B0, 1)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056220FBF5520) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221017BBC0
+vpi end callback 000056220FBF5520
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056220FBF5520
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (000056221017BBC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbAfterDelay
+ vpi_free_object (000056220FBF5520)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 0000562210567DC0
+vpi end callback 000056220FBF5520
+vpi call callback 0000562210567DC0 cbReadWriteSynch
+ vpi_free_object (0000562210567DC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 0000562210567DC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221022D920
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056220FBF5520
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbReadWriteSynch
+ vpi_free_object (000056220FBF5520)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056220FBF5520
+vpi call callback 0000562210567DC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (0000562210567DC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056220FBF5520
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbAfterDelay
+ vpi_free_object (000056221022D920)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056220FBF5520) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221017BBC0
+vpi end callback 000056220FBF5520
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056220FBF5520
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (000056221017BBC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbAfterDelay
+ vpi_free_object (000056220FBF5520)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 0000562210567DC0
+vpi end callback 000056220FBF5520
+vpi call callback 0000562210567DC0 cbReadWriteSynch
+ vpi_free_object (0000562210567DC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 0000562210567DC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221022D920
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056220FBF5520
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbReadWriteSynch
+ vpi_free_object (000056220FBF5520)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056220FBF5520
+vpi call callback 0000562210567DC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (0000562210567DC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056220FBF5520
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbAfterDelay
+ vpi_free_object (000056221022D920)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056220FBF5520) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221017BBC0
+vpi end callback 000056220FBF5520
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056220FBF5520
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (000056221017BBC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbAfterDelay
+ vpi_free_object (000056220FBF5520)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 0000562210567DC0
+vpi end callback 000056220FBF5520
+vpi call callback 0000562210567DC0 cbReadWriteSynch
+ vpi_free_object (0000562210567DC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 0000562210567DC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221022D920
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056220FBF5520
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbReadWriteSynch
+ vpi_free_object (000056220FBF5520)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056220FBF5520
+vpi call callback 0000562210567DC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (0000562210567DC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056220FBF5520
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbAfterDelay
+ vpi_free_object (000056221022D920)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056220FBF5520) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221017BBC0
+vpi end callback 000056220FBF5520
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056220FBF5520
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (000056221017BBC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbAfterDelay
+ vpi_free_object (000056220FBF5520)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 0000562210567DC0
+vpi end callback 000056220FBF5520
+vpi call callback 0000562210567DC0 cbReadWriteSynch
+ vpi_free_object (0000562210567DC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 0000562210567DC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221022D920
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056220FBF5520
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbReadWriteSynch
+ vpi_free_object (000056220FBF5520)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056220FBF5520
+vpi call callback 0000562210567DC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (0000562210567DC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056220FBF5520
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbAfterDelay
+ vpi_free_object (000056221022D920)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056220FBF5520) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221017BBC0
+vpi end callback 000056220FBF5520
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056220FBF5520
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (000056221017BBC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 000056221017BBC0
+vpi call callback 000056220FBF5520 cbAfterDelay
+ vpi_free_object (000056220FBF5520)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 0000562210567DC0
+vpi end callback 000056220FBF5520
+vpi call callback 0000562210567DC0 cbReadWriteSynch
+ vpi_free_object (0000562210567DC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "0"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "0"
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056220FBF5520
+vpi end callback 000056221022D920
+vpi call callback 000056220FBF5520 cbReadWriteSynch
+ vpi_free_object (000056220FBF5520)
+ vpi_get (vpiType, 000056220FEB7230) = vpiNet
+ vpi_put_value (000056220FEB7230, 1)
+vpi end callback 000056220FBF5520
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056220FBF5520
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056221017BBC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 0000562210567DC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (0000562210567DC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056220FBF5520 cbAfterDelay
+ vpi_free_object (000056220FBF5520)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056220FBF5520
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 200ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 200ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011110100000000010101010000000000110111000000000011010000000000000111100000000000011100000000000011010000000000000011010000000011001000")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017A420 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (000056221017A420) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 0000562210567DC0
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbReadWriteSynch
+ vpi_free_object (0000562210567DC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 210ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "1111111111111111"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "0"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 210ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 210ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011110100000000010101010000000000110111000000000011010000000000000111100000000000011100000000000011001100000000110100100000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbAfterDelay
+ vpi_free_object (000056221017A420)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 0000562210567DC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (0000562210567DC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017A420
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbReadWriteSynch
+ vpi_free_object (000056221017A420)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 220ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "1111111111111111"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "0"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 220ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 220ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011110100000000010101010000000000110111000000000011010000000000000111100000000000011100000000001101110000000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017A420 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (000056221017A420) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 0000562210567DC0
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbReadWriteSynch
+ vpi_free_object (0000562210567DC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 230ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "1111111111111111"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "0"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 230ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 230ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011110100000000010101010000000000110111000000000011010000000000000111100000000011100110000000000011001100000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbAfterDelay
+ vpi_free_object (000056221017A420)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 0000562210567DC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (0000562210567DC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017A420
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbReadWriteSynch
+ vpi_free_object (000056221017A420)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 240ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "1111111111111111"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "0"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 240ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 240ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011110100000000010101010000000000110111000000000011010000000000111100000000000000011100000000000011001100000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017A420 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (000056221017A420) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 0000562210567DC0
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbReadWriteSynch
+ vpi_free_object (0000562210567DC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 250ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "1111111111111111"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "0"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 250ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 250ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011111000000000010101010000000000110111000000001111101000000000000111010000000000011100000000000011001100000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbAfterDelay
+ vpi_free_object (000056221017A420)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 0000562210567DC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (0000562210567DC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017A420
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbReadWriteSynch
+ vpi_free_object (000056221017A420)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 260ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "1111111111111111"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "0"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 260ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 260ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011111000000000010101010000000100000100000000000011010100000000000111010000000000011100000000000011001100000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017A420 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (000056221017A420) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 0000562210567DC0
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbReadWriteSynch
+ vpi_free_object (0000562210567DC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 270ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "1111111111111111"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "0"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 270ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 270ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011111000000001000011100000000000110111000000000011010000000000000111010000000000011100000000000011001100000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbAfterDelay
+ vpi_free_object (000056221017A420)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 0000562210567DC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (0000562210567DC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017A420
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbReadWriteSynch
+ vpi_free_object (000056221017A420)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 280ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "1111111111111111"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "0"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 280ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 280ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000010001100000000000010101000000000000110111000000000011010000000000000111010000000000011100000000000011001100000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017A420 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (000056221017A420) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 0000562210567DC0
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbReadWriteSynch
+ vpi_free_object (0000562210567DC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 290ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "1111111111111111"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "0"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 290ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 290ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000100100010000000000011110100000000010101000000000000110111000000000011010000000000000111010000000000011100000000000011001100000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbAfterDelay
+ vpi_free_object (000056221017A420)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 0000562210567DC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (0000562210567DC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017A420
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbReadWriteSynch
+ vpi_free_object (000056221017A420)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 300ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "1111111111111111"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "0"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 300ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 300ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011110100000000010101000000000000110111000000000011010000000000000111010000000000011100000000000011001100000000000011010000000100101100")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017A420 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (000056221017A420) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 0000562210567DC0
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbReadWriteSynch
+ vpi_free_object (0000562210567DC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 310ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "1111111111111111"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "0"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 310ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 310ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011110100000000010101010000000000110111000000000011010000000000000111010000000000011100000000000011001100000001001101100000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbAfterDelay
+ vpi_free_object (000056221017A420)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 0000562210567DC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (0000562210567DC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017A420
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbReadWriteSynch
+ vpi_free_object (000056221017A420)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 320ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "1111111111111111"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "0"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 320ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 320ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011110100000000010101010000000000110111000000000011010000000000000111010000000000011100000000010100000000000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017A420 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (000056221017A420) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 0000562210567DC0
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbReadWriteSynch
+ vpi_free_object (0000562210567DC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 330ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "1111111111111111"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "0"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 330ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 330ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011111000000000010101010000000000110111000000000011010000000000000111010000000101001010000000000011001100000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbAfterDelay
+ vpi_free_object (000056221017A420)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 0000562210567DC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (0000562210567DC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017A420
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbReadWriteSynch
+ vpi_free_object (000056221017A420)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 340ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "1111111111111111"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "0"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 340ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 340ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011111000000000010101010000000000110111000000000011010000000001010101000000000000011100000000000011001100000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017A420 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (000056221017A420) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 0000562210567DC0
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbReadWriteSynch
+ vpi_free_object (0000562210567DC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 350ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000011001000"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "1"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000011001000"
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000000"
+ vpi_get_value (00005622100DCDB0, {format=BinStr}) = "0000000010001001"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 350ns
+ vpi_get_value (000056220FE73B40, {format=BinStr}) = "0000000000111000000000000011110100000000010101010000000000110111000000000011010000000000000111100000000000011100000000000011010000000000000011010000000011001000"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 350ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 350ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 350ns
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000000"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000011001000"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 350ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011111000000000010101010000000000110111000000010101111000000000000111010000000000011100000000000011001100000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbAfterDelay
+ vpi_free_object (000056221017A420)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 0000562210567DC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (0000562210567DC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017A420
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbReadWriteSynch
+ vpi_free_object (000056221017A420)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 360ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000011010010"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "1"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000011010010"
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000001"
+ vpi_get_value (00005622100DCDB0, {format=BinStr}) = "0000000010010000"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 360ns
+ vpi_get_value (000056220FE73B40, {format=BinStr}) = "0000000000111000000000000011110100000000010101010000000000110111000000000011010000000000000111100000000000011100000000000011001100000000110100100000000000011111"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 360ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 360ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 360ns
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000001"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000011010010"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 360ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011111000000000010101010000000101101000000000000011010000000000000111010000000000011100000000000011001100000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017A420 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (000056221017A420) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 0000562210567DC0
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbReadWriteSynch
+ vpi_free_object (0000562210567DC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 370ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000011011100"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "1"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000011011100"
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000010"
+ vpi_get_value (00005622100DCDB0, {format=BinStr}) = "0000000010010111"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 370ns
+ vpi_get_value (000056220FE73B40, {format=BinStr}) = "0000000000111000000000000011110100000000010101010000000000110111000000000011010000000000000111100000000000011100000000001101110000000000000011010000000000011111"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 370ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 370ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 370ns
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000010"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000011011100"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 370ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011110100000001011100100000000000110111000000000011010000000000000111100000000000011100000000000011001100000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbAfterDelay
+ vpi_free_object (000056221017A420)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 0000562210567DC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (0000562210567DC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017A420
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbReadWriteSynch
+ vpi_free_object (000056221017A420)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 380ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000011100110"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "1"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000011100110"
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000011"
+ vpi_get_value (00005622100DCDB0, {format=BinStr}) = "0000000010011110"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 380ns
+ vpi_get_value (000056220FE73B40, {format=BinStr}) = "0000000000111000000000000011110100000000010101010000000000110111000000000011010000000000000111100000000011100110000000000011001100000000000011010000000000011111"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 380ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 380ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 380ns
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000011"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000011100110"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 380ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000010111110000000000010101010000000000110111000000000011010000000000000111100000000000011100000000000011010000000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017A420 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (000056221017A420) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 0000562210567DC0
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbReadWriteSynch
+ vpi_free_object (0000562210567DC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 390ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000011110000"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "1"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000011110000"
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000100"
+ vpi_get_value (00005622100DCDB0, {format=BinStr}) = "0000000010100101"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 390ns
+ vpi_get_value (000056220FE73B40, {format=BinStr}) = "0000000000111000000000000011110100000000010101010000000000110111000000000011010000000000111100000000000000011100000000000011001100000000000011010000000000011111"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 390ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 390ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 390ns
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000100"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000011110000"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 390ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000110000110000000000011110100000000010101010000000000110111000000000011010000000000000111100000000000011100000000000011001100000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbAfterDelay
+ vpi_free_object (000056221017A420)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 0000562210567DC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (0000562210567DC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017A420
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbReadWriteSynch
+ vpi_free_object (000056221017A420)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 400ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000011111010"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "1"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000011111010"
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000101"
+ vpi_get_value (00005622100DCDB0, {format=BinStr}) = "0000000010101011"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 400ns
+ vpi_get_value (000056220FE73B40, {format=BinStr}) = "0000000000111000000000000011111000000000010101010000000000110111000000001111101000000000000111010000000000011100000000000011001100000000000011010000000000011111"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 400ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 400ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 400ns
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000101"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000011111010"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 400ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011110100000000010101010000000000110111000000000011010000000000000111010000000000011100000000000011001100000000000011010000000110010000")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017A420 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (000056221017A420) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 0000562210567DC0
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbReadWriteSynch
+ vpi_free_object (0000562210567DC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 410ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000100000100"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "1"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000100000100"
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000110"
+ vpi_get_value (00005622100DCDB0, {format=BinStr}) = "0000000010110010"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 410ns
+ vpi_get_value (000056220FE73B40, {format=BinStr}) = "0000000000111000000000000011111000000000010101010000000100000100000000000011010100000000000111010000000000011100000000000011001100000000000011010000000000011111"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 410ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 410ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 410ns
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000110"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000100000100"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 410ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011110100000000010101010000000000111000000000000011010000000000000111010000000000011100000000000011001100000001100110100000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbAfterDelay
+ vpi_free_object (000056221017A420)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 0000562210567DC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (0000562210567DC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017A420
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbReadWriteSynch
+ vpi_free_object (000056221017A420)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 420ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000100001110"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "1"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000100001110"
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000111"
+ vpi_get_value (00005622100DCDB0, {format=BinStr}) = "0000000010111001"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 420ns
+ vpi_get_value (000056220FE73B40, {format=BinStr}) = "0000000000111000000000000011111000000001000011100000000000110111000000000011010000000000000111010000000000011100000000000011001100000000000011010000000000011111"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 420ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 420ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 420ns
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000111"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000100001110"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 420ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011111000000000010101010000000000111000000000000011010000000000000111010000000000011100000000011010010000000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017A420 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (000056221017A420) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 0000562210567DC0
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbReadWriteSynch
+ vpi_free_object (0000562210567DC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 430ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000100011000"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "1"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000100011000"
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000001000"
+ vpi_get_value (00005622100DCDB0, {format=BinStr}) = "0000000011000000"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 430ns
+ vpi_get_value (000056220FE73B40, {format=BinStr}) = "0000000000111000000000010001100000000000010101000000000000110111000000000011010000000000000111010000000000011100000000000011001100000000000011010000000000011111"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 430ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 430ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 430ns
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000001000"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000100011000"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 430ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011111000000000010101010000000000111000000000000011010000000000000111010000000110101110000000000011001100000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbAfterDelay
+ vpi_free_object (000056221017A420)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 0000562210567DC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (0000562210567DC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017A420
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbReadWriteSynch
+ vpi_free_object (000056221017A420)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 440ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000100100010"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "1"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000100100010"
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000001001"
+ vpi_get_value (00005622100DCDB0, {format=BinStr}) = "0000000011000111"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 440ns
+ vpi_get_value (000056220FE73B40, {format=BinStr}) = "0000000100100010000000000011110100000000010101000000000000110111000000000011010000000000000111010000000000011100000000000011001100000000000011010000000000011111"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 440ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 440ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 440ns
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000001001"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000100100010"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 440ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011111000000000010101010000000000111000000000000011010100000001101110000000000000011100000000000011001100000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017A420 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (000056221017A420) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 0000562210567DC0
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbReadWriteSynch
+ vpi_free_object (0000562210567DC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 450ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000100101100"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "1"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000100101100"
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000000"
+ vpi_get_value (00005622100DCDB0, {format=BinStr}) = "0000000011001110"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 450ns
+ vpi_get_value (000056220FE73B40, {format=BinStr}) = "0000000000111000000000000011110100000000010101000000000000110111000000000011010000000000000111010000000000011100000000000011001100000000000011010000000100101100"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 450ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 450ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 450ns
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000000"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000100101100"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 450ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011111000000000010101010000000000111000000000011100001000000000000111010000000000011100000000000011001100000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbAfterDelay
+ vpi_free_object (000056221017A420)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 0000562210567DC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (0000562210567DC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017A420
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbReadWriteSynch
+ vpi_free_object (000056221017A420)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 460ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000100110110"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "1"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000100110110"
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000001"
+ vpi_get_value (00005622100DCDB0, {format=BinStr}) = "0000000011010101"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 460ns
+ vpi_get_value (000056220FE73B40, {format=BinStr}) = "0000000000111000000000000011110100000000010101010000000000110111000000000011010000000000000111010000000000011100000000000011001100000001001101100000000000011111"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 460ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 460ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 460ns
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000001"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000100110110"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 460ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011111000000000010101010000000111001100000000000011010100000000000111010000000000011100000000000011001100000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017A420 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (000056221017A420) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 0000562210567DC0
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbReadWriteSynch
+ vpi_free_object (0000562210567DC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 470ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000101000000"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "1"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000101000000"
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000010"
+ vpi_get_value (00005622100DCDB0, {format=BinStr}) = "0000000011011100"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 470ns
+ vpi_get_value (000056220FE73B40, {format=BinStr}) = "0000000000111000000000000011110100000000010101010000000000110111000000000011010000000000000111010000000000011100000000010100000000000000000011010000000000011111"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 470ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 470ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 470ns
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000010"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000101000000"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 470ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000000011111000000001110101100000000000111000000000000011010100000000000111010000000000011100000000000011001100000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbAfterDelay
+ vpi_free_object (000056221017A420)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 0000562210567DC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (0000562210567DC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017A420
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbReadWriteSynch
+ vpi_free_object (000056221017A420)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 480ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000101001010"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "1"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000101001010"
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000011"
+ vpi_get_value (00005622100DCDB0, {format=BinStr}) = "0000000011100010"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 480ns
+ vpi_get_value (000056220FE73B40, {format=BinStr}) = "0000000000111000000000000011111000000000010101010000000000110111000000000011010000000000000111010000000101001010000000000011001100000000000011010000000000011111"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 480ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 480ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 480ns
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000011"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000101001010"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 480ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000000111000000000011110000000000000010101010000000000111000000000000011010100000000000111010000000000011100000000000011001100000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbAfterDelay
+ vpi_free_object (0000562210567DC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 000056221017A420 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (000056221017A420) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017A420
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 0000562210567DC0
+vpi end callback 000056221017BBC0
+vpi call callback 0000562210567DC0 cbReadWriteSynch
+ vpi_free_object (0000562210567DC0)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 0000562210567DC0
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 490ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000101010100"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "1"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000101010100"
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000100"
+ vpi_get_value (00005622100DCDB0, {format=BinStr}) = "0000000011101001"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 490ns
+ vpi_get_value (000056220FE73B40, {format=BinStr}) = "0000000000111000000000000011111000000000010101010000000000110111000000000011010000000001010101000000000000011100000000000011001100000000000011010000000000011111"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 490ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 490ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 490ns
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000100"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000101010100"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 490ns
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017BBC0
+vpi end callback 000056221022D920
+vpi call callback 000056221017BBC0 cbReadWriteSynch
+ vpi_free_object (000056221017BBC0)
+ vpi_get (vpiType, 000056220FE51700) = vpiNet
+ vpi_put_value (000056220FE51700, "0000000111101010000000000011111000000000010101010000000000111000000000000011010000000000000111010000000000011100000000000011001100000000000011010000000000011111")
+ vpi_get (vpiType, 000056220FFA7580) = vpiNet
+ vpi_put_value (000056220FFA7580, 1)
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbAfterDelay
+ vpi_free_object (000056221017A420)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 000056221017BBC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221022D920
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbReadWriteSynch
+ vpi_free_object (000056221022D920)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 0)
+vpi end callback 000056221022D920
+vpi call callback 0000562210567DC0 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "0"
+ vpi_remove_cb (0000562210567DC0) = [not free] 1
+ vpi_register_cb ({reason=cbValueChange, obj=00005622100A86E0}) = 000056221022D920
+vpi end callback 0000562210567DC0
+vpi call callback 000056221017BBC0 cbAfterDelay
+ vpi_free_object (000056221017BBC0)
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=5ns}) = 0000562210567DC0
+ vpi_register_cb ({reason=cbReadWriteSynch, obj=0000000000000000}) = 000056221017A420
+vpi end callback 000056221017BBC0
+vpi call callback 000056221017A420 cbReadWriteSynch
+ vpi_free_object (000056221017A420)
+ vpi_get (vpiType, 00005622100A86E0) = vpiNet
+ vpi_put_value (00005622100A86E0, 1)
+vpi end callback 000056221017A420
+vpi call callback 000056221022D920 cbValueChange
+ vpi_get_value (00005622100A86E0, {format=BinStr}) = "1"
+ vpi_remove_cb (000056221022D920) = [not free] 1
+ vpi_get_value (000056220FEB7230, {format=BinStr}) = "1"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 500ns
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000101011110"
+ vpi_get_value (000056220FF5D8D0, {format=BinStr}) = "1"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000101011110"
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000101"
+ vpi_get_value (00005622100DCDB0, {format=BinStr}) = "0000000011110000"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 500ns
+ vpi_get_value (000056220FE73B40, {format=BinStr}) = "0000000000111000000000000011111000000000010101010000000000110111000000010101111000000000000111010000000000011100000000000011001100000000000011010000000000011111"
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 500ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 500ns
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 500ns
+ vpi_get_value (000056220FEADB20, {format=BinStr}) = "0000000000000101"
+ vpi_get_value (000056221005A3E0, {format=BinStr}) = "0000000101011110"
+ vpi_register_cb ({reason=cbAfterDelay, obj=0000000000000000, time=1fs}) = 000056221017A420
+vpi end callback 000056221022D920
+vpi call callback 000056221017A420 cbAfterDelay
+ vpi_free_object (000056221017A420)
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 500000001fs
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 500000001fs
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 500000001fs
+ vpi_get_time (0000000000000000, {mtype=vpiSimTime}) = 500000001fs
+ vpi_control (vpiFinish, 1)
+vpi end callback 000056221017A420
+vpi call callback 000056220F821410 cbEndOfSimulation
+vpi end callback 000056220F821410
