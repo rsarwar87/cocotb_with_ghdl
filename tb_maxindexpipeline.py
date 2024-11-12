@@ -1,9 +1,12 @@
 import logging
 import random
+from pathlib import Path
+
 import cocotb
 from MaxIndexPipeline import MaxIndexPipe
 from cocotb.clock import Clock
 from cocotb.triggers import RisingEdge, Timer
+from cocotb.runner import get_runner
 
 import logging
 # Reset coroutine
@@ -48,4 +51,29 @@ async def test_MaxIndexPipeline(dut):
         await interpolation._send_data(i) 
         await interpolation._get_max_value()
 
+
+def run_pytest():
+    hdl_toplevel_lang = os.getenv("HDL_TOPLEVEL_LANG", "vhdl")
+    sim = os.getenv("SIM", "ghdl")
+
+    proj_path = Path(__file__).resolve().parent
+
+    if hdl_toplevel_lang == "verilog":
+        sources = [proj_path / "dff.sv"]
+    else:
+        sources = [proj_path / "*.vhd",
+                "/opt/Xilinx/Vivado/2023.2/data/vhdl/src/unimacro/MULT_MACRO.vhd"
+                ]
+
+    runner = get_runner(sim)
+    runner.build(
+        sources=sources,
+        hdl_toplevel="maxindexpipeline",
+        always=True,
+    )
+
+    runner.test(hdl_toplevel="maxindexpipeline", test_module="tb_maxindexpipeline,")
+
+if __name__ == "__main__":
+    run_pytest()
 

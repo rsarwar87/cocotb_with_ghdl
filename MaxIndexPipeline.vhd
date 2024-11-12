@@ -6,26 +6,26 @@ library IEEE;
   -- entity "uses" the package   
   use work.types_pkg.all;
 library UNIMACRO;
---  use UNIMACRO.vcomponents.all;
+  use UNIMACRO.vcomponents.all;
 
 entity maxindexpipeline is
   generic (
-    MULTI_LATANCY : INTEGER := 3;  -- Size of the input array
+    MULTI_LATANCY : INTEGER := 3;  -- Size of multiplication latency 
     N             : INTEGER := 16; -- Size of the input array
-    NBITS         : INTEGER := 16  -- Size of the input array
+    NBITS         : INTEGER := 16  -- Size of the input data points
   );
   port (
     clk            : in  STD_LOGIC;                                  -- Clock signal
     reset_n        : in  STD_LOGIC;                                  -- Reset signal
     --input_array  : in  array16_t;       -- Input array of integers
-    theshold_in    : in  std_logic_vector(NBITS - 1 downto 0); -- Input array of integers
+    theshold_in    : in  std_logic_vector(NBITS - 1 downto 0);       -- Input for threshold comparision 
     input_array_t  : in  signed((NBITS * N) - 1 downto 0);           -- Input array of integers
     input_valid    : in  STD_LOGIC;
 
     en             : in  STD_LOGIC;
     out_valid      : out STD_LOGIC;
-    output_array_t : out signed((NBITS * N) - 1 downto 0);           -- Input array of integers
-    theshold_out   : out std_logic_vector(NBITS - 1 downto 0); -- Input array of integers
+    output_array_t : out signed((NBITS * N) - 1 downto 0);           -- delayed array
+    theshold_out   : out std_logic_vector(NBITS - 1 downto 0);       -- scaled threshold 
     max_value      : out signed(NBITS - 1 downto 0);                 -- Maximum value in the array
     max_index      : out signed(NBITS - 1 downto 0)                  -- Index of maximum value
   );
@@ -50,7 +50,6 @@ architecture Behavioral of maxindexpipeline is
       RST : in std_logic
      );   
 end component MULT_MACRO;
-  signal input_array : array_signed_t(0 to N - 1)(NBITS - 1 downto 0); -- Input array of integers
   type stage_type is record
     value : signed(NBITS - 1 downto 0);
     index : signed(NBITS - 1 downto 0);
@@ -59,13 +58,14 @@ end component MULT_MACRO;
   type stage_type_array_t is array (0 to N - 1) of stage_type_t;
   type input_array_delayed_t is array (0 to (N + MULTI_LATANCY * 2) - 1) of array_signed_t(0 to N - 1)(NBITS - 1 downto 0);
 
-  signal theshold_buffer : std_logic_vector(NBITS - 1 downto 0);     -- Input array of integers
-  signal theshold_prod   : std_logic_vector(2 * NBITS - 1 downto 0); -- Input array of integers
+  signal input_array : array_signed_t(0 to N - 1)(NBITS - 1 downto 0); -- buffer
+  signal theshold_buffer : std_logic_vector(NBITS - 1 downto 0);     -- buffer
+  signal theshold_prod   : std_logic_vector(2 * NBITS - 1 downto 0); -- buffer 
 
   signal input_array_delayed : input_array_delayed_t;
   signal t_done              : STD_LOGIC_VECTOR((N + MULTI_LATANCY * 2) - 1 downto 0);
-  signal stages              : stage_type_array_t;
-  signal stages2             : stage_type_t;
+  signal stages              : stage_type_array_t;   --- pipeline whilst finding max
+  signal stages2             : stage_type_t;         --- pipline whilst finding threshold
 
   signal en_buffer : STD_LOGIC;
 
@@ -95,6 +95,7 @@ begin
       max_index <= (others => '1');
       theshold_buffer <= (others => '0');
     elsif rising_edge(clk) then
+      -- delay logics
       input_array_delayed(0) <= input_array;
       input_array_delayed(1 to (N + MULTI_LATANCY * 2) - 1) <= input_array_delayed(0 to (N + MULTI_LATANCY * 2) - 2);
       stages(1 to N - 1) <= stages(0 to N - 2);
@@ -102,8 +103,12 @@ begin
 
       t_done(0) <= input_valid;
       t_done((N + MULTI_LATANCY * 2) - 1 downto 1) <= t_done((N + MULTI_LATANCY * 2) - 2 downto 0);
+
+      -- buffers 
       en_buffer <= en;
       theshold_buffer <= theshold_buffer;
+
+      -- when active
       if en_buffer = '1' then
         for i in 0 to N - 1 loop
           stages(0)(i).value <= input_array(i);
@@ -119,6 +124,7 @@ begin
           end if;
         end loop;
       else
+        -- when not active
         for j in 0 to N - 1 loop
           for i in 0 to N - 1 loop
             stages(0)(i).value <= to_signed(0, NBITS);

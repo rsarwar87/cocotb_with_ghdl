@@ -1,6 +1,6 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1731058945" />
-    <testcase name="test_MaxIndexPipeline" classname="tb_maxindexpipeline" file="/home/containeruser/wkspace/tb_maxindexpipeline.py" lineno="16" time="1.2587461471557617" sim_time_ns="500.000001" ratio_time="397.2206803808618" />
+    <property name="random_seed" value="1731412808" />
+    <testcase name="test_MaxIndexPipeline" classname="tb_maxindexpipeline" file="/home/containeruser/wkspace/tb_maxindexpipeline.py" lineno="19" time="1.232607126235962" sim_time_ns="500.000001" ratio_time="405.6442562739844" />
   </testsuite>
 </testsuites>
