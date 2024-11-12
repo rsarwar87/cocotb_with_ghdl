@@ -101,14 +101,23 @@ begin
       stages(1 to N - 1) <= stages(0 to N - 2);
       stages2(1 to N - 1) <= stages2(0 to N - 2);
 
-      t_done(0) <= input_valid;
+      t_done(0) <= '0';
       t_done((N + MULTI_LATANCY * 2) - 1 downto 1) <= t_done((N + MULTI_LATANCY * 2) - 2 downto 0);
 
       -- buffers 
       en_buffer <= en;
       theshold_buffer <= theshold_buffer;
 
-      -- when active
+      -- fill default outputs
+      out_valid <= '0';
+      output_array_t <= (others => '0');
+      max_value <= (others => '1');
+      max_index <= (others => '1');
+      theshold_out <= (others => '0');
+      stages2(0).value <= (others => '0'); 
+      stages2(0).index <= (others => '0'); 
+
+      -- when enabled
       if en_buffer = '1' then
         for i in 0 to N - 1 loop
           stages(0)(i).value <= input_array(i);
@@ -124,7 +133,7 @@ begin
           end if;
         end loop;
       else
-        -- when not active
+      -- when not active
         for j in 0 to N - 1 loop
           for i in 0 to N - 1 loop
             stages(0)(i).value <= to_signed(0, NBITS);
@@ -135,12 +144,12 @@ begin
         theshold_buffer <= theshold_in;
       end if;
       -- Output intermiditory stage as max value and index
-      if t_done(N - 1) = '1' then
+      if t_done(N - 1) = '1' and en_buffer = '1' then
         stages2(0).value <= stages(N - 1)(N - 1).value;
         stages2(0).index <= stages(N - 1)(N - 1).index;
       end if;
       -- Output final stage as max value and index
-      if t_done(N + MULTI_LATANCY - 1) = '1' then
+      if t_done(N + MULTI_LATANCY - 1) = '1'  and en_buffer = '1' then
         max_value <= stages2(MULTI_LATANCY-1).value;
         max_index <= stages2(MULTI_LATANCY-1).index;
         out_valid <= t_done(N - 1 + MULTI_LATANCY);
