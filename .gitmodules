@@ -7,3 +7,6 @@
 [submodule "ext/pyuvm"]
 	path = ext/pyuvm
 	url = https://github.com/pyuvm/pyuvm.git
+[submodule "ext/xpm_vhdl"]
+	path = ext/xpm_vhdl
+	url = https://github.com/rsarwar87/xpm_vhdl
